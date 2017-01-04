@@ -1,3 +1,6 @@
+h1 {
+  text-align: center;
+}
 .column {
   width: 300px;
   float: left;
@@ -5,5 +8,26 @@
 
 .column img {
   width: 200px;
+}
 
+.column p {
+  border: 3px solid black;
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    width: 300px
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen @ (max-width: 300px) {
+  .column {
+  background-color: white; {
+  color: black;
+  }
 }
