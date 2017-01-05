@@ -1,13 +1,14 @@
 body {
-  background-color: #33817E;
+  background-color: #7fc7db;
   text-align: center;
 }
 h1 {
   text-align: center;
   border: 4px solid black;
-  background-color: #663381;
+  background-color: #7fdbd2;
   font-family: Lemonada;
   font-size: 60px;
+  font-style: italic;
 }
 .column {
   border: 2px solid black;
@@ -25,10 +26,9 @@ h1 {
 }
 
 .column p {
-  border: 3px solid black;
-  background-color: black;
   color: white;
   padding-bottom: 50px;
+  font-size: 20px;
 }
 .center {
   width:50%;
